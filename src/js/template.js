@@ -13,4 +13,5 @@ export default function createMarkup(articles) {
   </li>`
     )
     .join('');
+  ref.spiner.classList.toggle('is-hidden');
 }
